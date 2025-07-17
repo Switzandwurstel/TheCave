@@ -1,0 +1,156 @@
+<html>
+
+<head>
+    <title>The Cave - Kron</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #880000;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #fff;
+        }
+
+        th,
+        td {
+            border: 1px solid #aaa;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #ddd;
+        }
+
+        section {
+            margin-bottom: 40px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 4px #ccc;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 1em;
+        }
+
+        ul li::before {
+            content: "⮚ ";
+            color: #333;
+        }
+
+        pre {
+            white-space: pre-wrap;
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>I Kron</h1>
+    <img src="gravimante.png" alt="Cover"><br><br>
+
+    Discendenti di umani deformati dal BRAMIO. Ogni generazione nasce più adatta alla profondità.
+    Aspetto: gobbe ossee, braccia lunghissime, occhi ridotti a fessure, pelle color violaceo. Alcuni hanno placche
+    minerali sotto la pelle. Possono, come abilità innata, manipolare la gravità che li circonda.
+    Difetto: sono ossessionati dal “Cuore della Pietra”, una reliquia che li chiama nei sogni.
+
+    <h2>Abilità razziali</h2>
+    <ul>
+        <li>Punti vita alla creazione: 30</li>
+        <li>Punti vita bonus al passaggio di livello: 3</li>
+        <li>Punti mana alla creazione: 3</li>
+        <li>Punti mana al passaggio di livello: 1</li>
+        <li>Visione: darkvision</li>
+        <li>Movimento: 3 + destrezza</li>
+        <li>Modificatore attributi: forza +1 | affinità +1 | destrezza -1 | mente -1 </li>
+    </ul>
+
+    Il gravimante sceglie 2 delle seguenti abilità alla creazione e una nuova abilità a ciascun nuovo livello.
+
+    <table>
+        <tr>
+            <td>Nome</td>
+            <td>Costo punti BRAMIO</td>
+            <td>Costo azioni</td>
+            <td>Descrizione</td>
+            <td>Effetto</td>
+        </tr>
+        <tr>
+            <td>Campo Gravitazionale Localizzato</td>
+            <td>1</td>
+            <td>1</td>
+            <td>Può aumentare o diminuire la gravità in un’area rendendo un nemico troppo pesante per muoversi.</td>
+            <td>Seleziona un area di 2x2, chiunque nell'area può muoversi solo se ottiene almeno 2 + LVL successi in
+                FORZA.</td>
+        </tr>
+        <tr>
+            <td>Camminare sui Soffitti</td>
+            <td>-</td>
+            <td>Passiva</td>
+            <td>Modifica la sua personale gravità per spostarsi in verticale.</td>
+            <td>Guadagni una velocità di scalata pari al tuo movimento base</td>
+        </tr>
+        <tr>
+            <td>Frattura del Peso</td>
+            <td>3</td>
+            <td>1</td>
+            <td>Aumentando smisuratamente la gravità in un punto, infligge danni crescenti in base alla massa del
+                bersaglio.</td>
+            <td>Infligge ad una creatura un ammontare di danni pari a [numero di caselle che occupa] x LVL x 2</td>
+        </tr>
+        <tr>
+            <td>Lama di Peso Puro</td>
+            <td>1</td>
+            <td>Gratis</td>
+            <td>Aumenti il peso della tua arma un attimo prima di colpire</td>
+            <td>Il prossimo colpo ignora la riduzione danno del bersaglio</td>
+        </tr>
+        <tr>
+            <td>Zona a Gravità Inversa</td>
+            <td>5</td>
+            <td>2</td>
+            <td>Fa fluttuare oggetti e persone</td>
+            <td>Seleziona un'area 10x10, in quest'area la gravità è invertita</td>
+        </tr>
+        <tr>
+            <td>Peso letale</td>
+            <td>-</td>
+            <td>Passiva</td>
+            <td>Si specializza nel concentrare la gravità nel pugno, nella lama o nel proiettile, che cade sull'avversario sempre come un macigno.</td>
+            <td>Gli attacchi infliggono sempre +1 danno per ogni successo extra oltre il primo.</td>
+        </tr>
+        <tr>
+            <td>Furia d’Attrazione</td>
+            <td>2</td>
+            <td>Gratis</td>
+            <td>Come un buco nero, attira i nemici nella sua zona di morte.</td>
+            <td>Tutte le creature a distanza 4 + LVL caselle vengono spostate adiacenti al gravimante</td>
+        </tr>
+        <tr>
+            <td>Corpo Ancorato</td>
+            <td>-</td>
+            <td>Passiva</td>
+            <td>Manipola la propria gravità interna per restare incrollabile.</td>
+            <td>Riduce i danni subiti di LVL. Inoltre, non può essere spinto né sollevato.</td>
+        </tr>
+    </table>
+</body>
+
+</html>
