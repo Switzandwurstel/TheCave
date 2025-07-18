@@ -66,23 +66,19 @@
     <h1>I cenebruchi</h1>
     <img src="cenebruco.png" alt="Cover"><br><br>
 
-    Discendenti di umani deformati dal BRAMIO. Ogni generazione nasce più adatta alla profondità.
-    Aspetto: gobbe ossee, braccia lunghissime, occhi ridotti a fessure, pelle color violaceo. Alcuni hanno placche
-    minerali sotto la pelle. Possono, come abilità innata, manipolare la gravità che li circonda.
-    Difetto: sono ossessionati dal “Cuore della Pietra”, una reliquia che li chiama nei sogni.
+    Essere vermiformi, figli del calore e della digestione della terra. Non hanno ossa.
+    Aspetto: lunghi 2–3 metri, bocche circolari e dentate, segmentati e con zampe anteriori evolute.
+    Poteri: possono scavare rapidamente in qualsiasi roccia. Sentono il calore delle vene geotermiche.
+    Cultura: venerano il “Fuoco che Respira”, un dio-pietra che dorme nel magma.
+    Difetto: se si allontanano troppo dal calore, entrano in letargo.
 
     <h2>Abilità razziali</h2>
     <ul>
-        <li>Punti vita alla creazione: 30</li>
-        <li>Punti vita bonus al passaggio di livello: 3</li>
-        <li>Punti mana alla creazione: 3</li>
-        <li>Punti mana al passaggio di livello: 1</li>
         <li>Visione: darkvision</li>
-        <li>Movimento: 3 + destrezza</li>
-        <li>Modificatore attributi: forza +1 | affinità +1 | destrezza -1 | mente -1 </li>
+        <li>Modificatore attributi: +2/-1 DESTREZZA/-1 </li>
     </ul>
 
-    Il gravimante sceglie 2 delle seguenti abilità alla creazione e una nuova abilità a ciascun nuovo livello.
+    Il cenebruco sceglie 2 delle seguenti abilità alla creazione e 1 nuova a ciascun livello.
 
     <table>
         <tr>
@@ -93,62 +89,61 @@
             <td>Effetto</td>
         </tr>
         <tr>
-            <td>Campo Gravitazionale Localizzato</td>
-            <td>1</td>
-            <td>1</td>
-            <td>Può aumentare o diminuire la gravità in un’area rendendo un nemico troppo pesante per muoversi.</td>
-            <td>Seleziona un area di 2x2, chiunque nell'area può muoversi solo se ottiene almeno 2 + LVL successi in
-                FORZA.</td>
-        </tr>
-        <tr>
-            <td>Camminare sui Soffitti</td>
-            <td>-</td>
-            <td>Passiva</td>
-            <td>Modifica la sua personale gravità per spostarsi in verticale.</td>
-            <td>Guadagni una velocità di scalata pari al tuo movimento base</td>
-        </tr>
-        <tr>
-            <td>Frattura del Peso</td>
-            <td>3</td>
-            <td>1</td>
-            <td>Aumentando smisuratamente la gravità in un punto, infligge danni crescenti in base alla massa del
-                bersaglio.</td>
-            <td>Infligge ad una creatura un ammontare di danni pari a [numero di caselle che occupa] x LVL x 2</td>
-        </tr>
-        <tr>
-            <td>Lama di Peso Puro</td>
+            <td>Strisciamento Letale</td>
             <td>1</td>
             <td>Gratis</td>
-            <td>Aumenti il peso della tua arma un attimo prima di colpire</td>
-            <td>Il prossimo colpo ignora la riduzione danno del bersaglio</td>
+            <td>Scava e attacca dai punti ciechi.</td>
+            <td>Per 2 turni si muove scavando attraverso pareti o sotto terra. Durante questo effetto,
+                può attaccare da sotto (ignora copertura e il colpo può essere schivato ma non bloccato).</td>
         </tr>
         <tr>
-            <td>Zona a Gravità Inversa</td>
+            <td>Vomito di Bava</td>
+            <td>1</td>
+            <td>1</td>
+            <td>Dalla bocca esce un misto di acido, muco e piccole larve che rallentano e bruciano.</td>
+            <td>Tiro per colpire a distanza, in caso di successo il bersaglio tira 1 dado in meno in ciascuna prova per
+                1 round (stackabile)</td>
+        </tr>
+        <tr>
+            <td>Articolazioni Vermiformi</td>
+            <td>-</td>
+            <td>Passiva</td>
+            <td>La sua anatomia permette di evitare traumi seri.
+            </td>
+            <td>Immune ai critici e agli effetti che lo immobilizzano.</td>
+        </tr>
+        <tr>
+            <td>Rigurgito Larvico</td>
+            <td>0</td>
+            <td>Reazione</td>
+            <td>Risposta automatica al dolore</td>
+            <td>Quando subisce un attacco in corpo a corpo, può rigurgitare una larva esplosiva che infligge [LVL x 2]
+                danno diretto all’attaccante (danni fissi, non evitabili e non riducibili).</td>
+        </tr>
+        <tr>
+            <td>Consumazione</td>
+            <td>1</td>
+            <td>1</td>
+            <td>Le sue carni si rigenerano mentre i tessuti divorati si innestano direttamente nei suoi nervi.</td>
+            <td>Se il Cenebruco si nutre di carne di cadavere durante lo scontro, recupera [LVL x 5] punti vita e
+                ottiene un bonus +1 dado a tutte le azioni per il resto del combattimento (dado non stackabile).</td>
+        </tr>
+        <tr>
+            <td>Sensi Mutati</td>
+            <td>-</td>
+            <td>Passiva</td>
+            <td>Non ha più occhi veri, ma centinaia di piccoli sensori sparsi sulla pelle.</td>
+            <td>Il Cenebruco sente vibrazioni, movimenti, e calore: non può essere colto di sorpresa e individua
+                creature celate. Ottiene inoltre +1 dado ai tiri di percezione.</td>
+        </tr>
+        <tr>
+            <td>Riprocessamento Digestivo</td>
             <td>5</td>
             <td>2</td>
-            <td>Fa fluttuare oggetti e persone</td>
-            <td>Seleziona un'area 10x10, in quest'area la gravità è invertita</td>
-        </tr>
-        <tr>
-            <td>Peso letale</td>
-            <td>-</td>
-            <td>Passiva</td>
-            <td>Si specializza nel concentrare la gravità nel pugno, nella lama o nel proiettile, che cade sull'avversario sempre come un macigno.</td>
-            <td>Gli attacchi infliggono sempre +1 danno per ogni successo extra oltre il primo.</td>
-        </tr>
-        <tr>
-            <td>Furia d’Attrazione</td>
-            <td>2</td>
-            <td>Gratis</td>
-            <td>Come un buco nero, attira i nemici nella sua zona di morte.</td>
-            <td>Tutte le creature a distanza 4 + LVL caselle vengono spostate adiacenti al gravimante</td>
-        </tr>
-        <tr>
-            <td>Corpo Ancorato</td>
-            <td>-</td>
-            <td>Passiva</td>
-            <td>Manipola la propria gravità interna per restare incrollabile.</td>
-            <td>Riduce i danni subiti di LVL. Inoltre, non può essere spinto né sollevato.</td>
+            <td>Il passaggio attraverso il suo corpo cura la carne.</td>
+            <td>Può ingerire dalla bocca una creatura, massimo della sua dimensione, e espellerla dall'ano. La creatura
+                recupera [LVL x 20] punti vita. Se la creatura è morta entro 2 round, ritorna in vita con 1 punto vita.
+            </td>
         </tr>
     </table>
 </body>

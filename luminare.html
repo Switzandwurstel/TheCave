@@ -66,23 +66,19 @@
     <h1>I luminari</h1>
     <img src="luminare.png" alt="Cover"><br><br>
 
-    Discendenti di umani deformati dal BRAMIO. Ogni generazione nasce più adatta alla profondità.
-    Aspetto: gobbe ossee, braccia lunghissime, occhi ridotti a fessure, pelle color violaceo. Alcuni hanno placche
-    minerali sotto la pelle. Possono, come abilità innata, manipolare la gravità che li circonda.
-    Difetto: sono ossessionati dal “Cuore della Pietra”, una reliquia che li chiama nei sogni.
+    Discendenti da razze antiche che si sono fuse con funghi bioluminescenti. Vivono in simbiosi con la muffa.
+    Sono umanoidi esili, pelle diafana, occhi vuoti. Un grande fungho cresce sulla testa come un cappello.
+    Possono emettere luce o comunicare con altri Luminari a distanza.
+    Cultura: pacifisti, legati al ciclo di decomposizione. I più anziani diventano alberi di spore.
+    Difetto: la muffa cresce dentro: se non meditano o si purificano, vengono consumati dalla simbiosi.
 
     <h2>Abilità razziali</h2>
     <ul>
-        <li>Punti vita alla creazione: 30</li>
-        <li>Punti vita bonus al passaggio di livello: 3</li>
-        <li>Punti mana alla creazione: 3</li>
-        <li>Punti mana al passaggio di livello: 1</li>
         <li>Visione: darkvision</li>
-        <li>Movimento: 3 + destrezza</li>
-        <li>Modificatore attributi: forza +1 | affinità +1 | destrezza -1 | mente -1 </li>
+        <li>Modificatore attributi: +1/-1 FORTUNA oppure +2/-1 FORTUNA/-1</li>
     </ul>
 
-    Il gravimante sceglie 2 delle seguenti abilità alla creazione e una nuova abilità a ciascun nuovo livello.
+    Il gravimante sceglie 2 delle seguenti abilità alla creazione e 1 nuova a ciascun livello.
 
     <table>
         <tr>
@@ -93,62 +89,49 @@
             <td>Effetto</td>
         </tr>
         <tr>
-            <td>Campo Gravitazionale Localizzato</td>
-            <td>1</td>
-            <td>1</td>
-            <td>Può aumentare o diminuire la gravità in un’area rendendo un nemico troppo pesante per muoversi.</td>
-            <td>Seleziona un area di 2x2, chiunque nell'area può muoversi solo se ottiene almeno 2 + LVL successi in
-                FORZA.</td>
-        </tr>
-        <tr>
-            <td>Camminare sui Soffitti</td>
-            <td>-</td>
-            <td>Passiva</td>
-            <td>Modifica la sua personale gravità per spostarsi in verticale.</td>
-            <td>Guadagni una velocità di scalata pari al tuo movimento base</td>
-        </tr>
-        <tr>
-            <td>Frattura del Peso</td>
+            <td>Bagliore ipnotico</td>
             <td>3</td>
             <td>1</td>
-            <td>Aumentando smisuratamente la gravità in un punto, infligge danni crescenti in base alla massa del
-                bersaglio.</td>
-            <td>Infligge ad una creatura un ammontare di danni pari a [numero di caselle che occupa] x LVL x 2</td>
+            <td>Il Luminare emette un impulso pulsante di luce psichedelica dal proprio fungo.</td>
+            <td>Seleziona fino a 3 creature. Queste devono effettuare un tiro MENTE. Se non ottengono 1 + [LVL]
+                successi, sono confuse per 1 round: si muovono e/o attaccano casualmente.</td>
         </tr>
         <tr>
-            <td>Lama di Peso Puro</td>
+            <td>Spore simbiotiche</td>
             <td>1</td>
             <td>Gratis</td>
-            <td>Aumenti il peso della tua arma un attimo prima di colpire</td>
-            <td>Il prossimo colpo ignora la riduzione danno del bersaglio</td>
+            <td>Il Luminare lancia spore dorate su un alleato.</td>
+            <td>La creatura affetta dalle spore guadagna fast healing 1 per il resto dello scontro (stackabile)</td>
         </tr>
         <tr>
-            <td>Zona a Gravità Inversa</td>
-            <td>5</td>
+            <td>Nebbia del Micelio Profondo</td>
             <td>2</td>
-            <td>Fa fluttuare oggetti e persone</td>
-            <td>Seleziona un'area 10x10, in quest'area la gravità è invertita</td>
+            <td>1</td>
+            <td>Il Luminare crea una nebbia bioluminescente in un’area di 5x5 per 2 turni.</td>
+            <td>I tiri a distanza sono impossibili attraverso quest'area, la visibilità è 1 casella.</td>
         </tr>
         <tr>
-            <td>Peso letale</td>
+            <td>Frattura psicotica</td>
+            <td>4</td>
+            <td>2</td>
+            <td>Il Luminare apre la propria mente come un parassita pronto a germogliare nei pensieri altrui.</td>
+            <td>Un nemico entro 10 caselle deve effettuare almeno [2 + LVL] successi mente o subire 5D6 di
+                danno e perdere 1 turno a causa di allucinazioni. Se il bersaglio muore rinasce come "figlio spora"
+                sotto il controllo del luminare. </td>
+        </tr>
+        <tr>
+            <td>Aura fungina</td>
             <td>-</td>
             <td>Passiva</td>
-            <td>Si specializza nel concentrare la gravità nel pugno, nella lama o nel proiettile, che cade sull'avversario sempre come un macigno.</td>
-            <td>Gli attacchi infliggono sempre +1 danno per ogni successo extra oltre il primo.</td>
+            <td>Il corpo del Luminare ospita un micelio senziente che si estende impercettibilmente nel terreno intorno a lui. Questo crea una connessione costante con ciò che lo circonda.</td>
+            <td>Il luminare e qualsiasi alleato che inizi il proprio turno entro 6 caselle, recupera 1 punto mana.</td>
         </tr>
         <tr>
-            <td>Furia d’Attrazione</td>
+            <td>Spore della vita</td>
+            <td>7</td>
             <td>2</td>
-            <td>Gratis</td>
-            <td>Come un buco nero, attira i nemici nella sua zona di morte.</td>
-            <td>Tutte le creature a distanza 4 + LVL caselle vengono spostate adiacenti al gravimante</td>
-        </tr>
-        <tr>
-            <td>Corpo Ancorato</td>
-            <td>-</td>
-            <td>Passiva</td>
-            <td>Manipola la propria gravità interna per restare incrollabile.</td>
-            <td>Riduce i danni subiti di LVL. Inoltre, non può essere spinto né sollevato.</td>
+            <td>Sprigionando le sue spore più rare, le creature ottengono una rigenerazione straordinaria.</td>
+            <td>Seleziona [LVL + 1] creature, per 1 round queste non subiscono danni.</td>
         </tr>
     </table>
 </body>
